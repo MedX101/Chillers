@@ -41,6 +41,7 @@
 
           <div class="form__group">
             <label for="room_description">Room Description</label>
+            {%csrf_token%}
             {{form.description}}
           </div>
 
